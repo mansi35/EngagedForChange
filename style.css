@@ -53,3 +53,22 @@
 	color: #fff;
 	font-size: :42px;
 }
+.scroll h2{
+	color:black;
+	font-size:45px;
+	padding:20px 30px;
+	font-family:sans-serif;
+	margin:10px 10px;
+	align-content:center; 
+
+}
+.scroll p{
+	color:blue;
+	font-size:20px;
+	font-family:serif;
+	padding:20px 30px;
+}
+.scroll{
+	background-image:url("download.jpg");
+	background-size:cover;
+}
