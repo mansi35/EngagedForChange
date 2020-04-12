@@ -131,7 +131,7 @@ h1::after{
 .scroll h2{
 	color:#3b5998;
 	font-size:45px;
-	padding:20px 30px;
+	padding:50px 30px;
 	font-family: "Lucida Grande";
 	margin:10px 10px;
 	text-align:center; 
@@ -142,4 +142,5 @@ h1::after{
 	font-size:20px;
 	font-family:serif;
 	padding:20px 30px;
+	text-align:justify;
 }
