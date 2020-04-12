@@ -55,6 +55,22 @@
 	font-size: :42px;
 }
 
+/* about us*/
+
+#about
+{
+	padding-top:50px;
+	padding-bottom: 50px;
+	color:#555;
+}
+#about .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content{
+	padding-top:20px;
+}
+
 /*---Team Members----*/
 #team{
 	padding-top: 50px;
@@ -126,15 +142,4 @@ h1::after{
 }
 .img-box ul, .img-box ul li{
 	transition: 0.5s;
-}
-/* about us*/
-
-#C2
-{
-	padding-top:50px;
-	padding-bottom: 50px;
-	color:#555;
-}
-.about-content{
-	padding-top:20px;
 }
