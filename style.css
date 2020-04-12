@@ -128,19 +128,13 @@ h1::after{
 	transition: 0.5s;
 }
 /* about us*/
-.scroll h2{
-	color:#3b5998;
-	font-size:45px;
-	padding:50px 30px;
-	font-family: "Lucida Grande";
-	margin:10px 10px;
-	text-align:center; 
 
+#C2
+{
+	padding-top:50px;
+	padding-bottom: 50px;
+	color:#555;
 }
-.scroll p{
-	color:red;
-	font-size:20px;
-	font-family:serif;
-	padding:20px 30px;
-	text-align:justify;
+.about-content{
+	padding-top:20px;
 }
