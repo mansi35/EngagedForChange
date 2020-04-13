@@ -73,16 +73,7 @@
 	padding-top:20px;
 }
 /*--our services--*/
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    min-height: 100vh;
 
-    font-family: sans-serif;
-  }
   .box{
     width: 1200px;
     display: grid;
