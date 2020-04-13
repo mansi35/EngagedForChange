@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+   max-width: 1170px;
+  width: 100%;
+  padding: 15px 0px 15px 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.top-wrapper {
+  padding: 180px 20px 100px 0;
+  background-image: url(g.jpg);
+  background-size: cover;
+}
+
+.top-wrapper h1 {
+  color:rgba(255,0,0,0.8);
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+.top-wrapper h2 {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  color:yellow;
+  text-align:justify;
+}
+.btn {
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #00ff00;
+}
+.btn:hover {
+  opacity: 1;
+  background-color:yellow;
+}
+.fa {
+  margin-right: 5px;
+  color:#800080;
+  font-size:200px;
+}
+
+.header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#ffffe0 ;
+}
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+.heading h2 {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Avenir Next";
+  color: #4b0082;
+  padding:20px 15px;
+
+}
+
+.lessons{
+  text-align:justify;
+  letter-spacing: 1px;
+  color:#000;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 100px;
+}
+.message {
+  padding: 15px 40px;
+  font-size: 100px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  width:100px;
+  background-color: #00ff00
+  }
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  }
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  }
