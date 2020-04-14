@@ -58,7 +58,7 @@
 }
 
 /* about us*/
-
+#more {display: none;}
 #about
 {
 	padding-top:50px;
