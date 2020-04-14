@@ -65,36 +65,42 @@ textarea:focus {
   font-size: 24px;
 }
 
-/* Search Box */
-
-#searchbox {
-  position: fixed;
-  right: 0;
-  top: 24px;
-  width: 500px;
-  pointer-events: none;
-  z-index: 50;
-  transition: 0.4s;
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img{
+  height: 40px;
+  padding-left: 30px;
 }
 
-#searchbox input {
-  height: 48px;
-  width: 100%;
+.navbar-nav li{
+  padding: 0 10px;
 }
 
-/* Search Icon */
-
-#search-icon {
-  color: white;
-  padding: 0 32px;
-  cursor: pointer;
-  transition: 0.4s;
+.navbar-nav li a{
+  float: right;
+  text-align: left;
 }
 
-#search-icon:hover {
-  color: red;
+#nav-bar ul li a:hover{
+  color: #007bff!important;
 }
 
+.navbar{
+  background: #fff;
+}
+
+.navbar-toggler{
+  border:none!important;
+}
+
+.nav-link{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
 /* Sections */
 
 section {
@@ -137,13 +143,21 @@ section {
   width: 515px;
 }
 
+.size {
+  transition: 0.4s;
+  width: 750px!important;
+}
 .cards-image:hover {
   box-shadow: 0 10px 6px -6px #777;
 }
 
 .cards .cards-description {
-  padding: 0 8px;
+  padding: 16px 16px;
   width:515px;
+}
+
+.description{
+  width: 700px!important;
 }
 
 .cards-meta-blogpost{
@@ -270,7 +284,65 @@ footer #social-media-footer ul li:hover a .fa-github {
   color:#333;
 }
 
+/* Single Blogpost */
+
+#post-container{
+  display: flex;
+}
+
+#blogpost{
+  display: flex;
+  flex-direction:column;
+  width:70%;
+  border-left:1px solid #999;
+}
+
+#blogpost .cards{
+  width:100%;
+}
+
+#blogpost .cards-image:hover{
+  box-shadow: none;
+}
+
+/* Sidebar */
+
+#sidebar{
+  background:#333;
+  flex:1;
+  padding: 8px 16px;
+  color:white;
+  box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
+}
+
+
 /* Media Queries */
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  #menu-icon {
+    display: flex;
+  }
+
+  #slideout-menu {
+    display: block;
+  }
+
+  #searchbox {
+    display: none;
+  }
+
+  #blogpost{
+    width:100%;
+    border-left:0;
+  }
+
+  #sidebar{
+    display: none;
+  }
+}
 
 @media (max-width: 719px) {
   main {
