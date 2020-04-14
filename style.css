@@ -161,6 +161,7 @@
   display: block;
   margin-top: 5px;
    } 
+
 /*---Team Members----*/
 #team{
 	padding-top: 50px;
@@ -169,7 +170,7 @@
 }
 h1{
 	text-align: center;
-	color: #555 !important;
+	color: #555;
 	padding-bottom: 10px;
 }
 h1::after{
@@ -235,33 +236,34 @@ h1::after{
 }
 
 /*---------Contact us-----------*/
+.back{
+	background-color: #000000 !important;
+}
+.back h1{
+	color: #fff;
+}
 .contact{
   background: #efefef;
   padding-top: 40px;
   padding-bottom: 40px;
   color: #777; 
 }
-
 .contact-form{
   padding: 15px;
 }
-
-
 .form-control{
   border-radius: 0;
   border: none;
 }
-
 ::placeholder{
   color: #777;
 }
-
 .follow{
-  background: #fff;
+  background: #000000;
   padding: 10px;
-  margin: 15px
+  margin: 15px;
+  color: #fff;
 }
-
 .contact-info .fa{
   margin: 10px;
   color: #007bff;
