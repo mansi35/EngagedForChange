@@ -357,6 +357,32 @@ footer #social-media-footer ul li:hover a .fa-github {
   .cards .cards-image img {
     width: 100%;
   }
+   footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer #left-footer {
+    flex: 1;
+    border-right: 0;
+    padding-left: 0;
+  }
+
+  footer #right-footer {
+    background: #eee;
+    color: black;
+  }
+
+  footer #right-footer a {
+    color: black;
+  }
+
+  footer #social-media-footer a .fa-facebook,
+  footer #social-media-footer a .fa-youtube,
+  footer #social-media-footer a .fa-github {
+    color: black;
+    transition: 0.4s;
+  }
 }
 
 @media (max-width: 600px) {
