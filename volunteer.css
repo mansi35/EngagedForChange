@@ -104,10 +104,9 @@ textarea:focus {
 /* Sections */
 
 section {
-  display:flex;
-  justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 
 .section-heading {
@@ -142,25 +141,23 @@ section {
 .cards-image {
   transition: 0.4s;
   width: 515px;
-  float:center;
 }
 
 .size {
   transition: 0.4s;
-  width: 1000px!important;
+  width: 750px!important;
 }
 .cards-image:hover {
-  box-shadow: 0 10px 6px 6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 .cards .cards-description {
   padding: 16px 16px;
   width:515px;
-  text-align: justify;
 }
 
 .description{
-  width: 1000px!important;
+  width: 700px!important;
 }
 
 .cards-meta-blogpost{
@@ -168,7 +165,6 @@ section {
   font-size:14px;
   padding: 16px;
   font-family:'Roboto Slab', serif;
-  text-align: justify;
 }
 
 .cards-meta-blogpost a{
@@ -183,7 +179,7 @@ section {
   transition: 0.4s;
   display: inline-block;
   margin-bottom: 24px;
-  
+  margin-left: 24px;
   font-weight: bold;
   cursor: pointer;
   background: white;
@@ -194,10 +190,6 @@ section {
   text-decoration: none;
   padding: 8px 64px 8px 24px;
   color: white;
-}
-#my{
-  text-align:center;
-  margin: 0 auto;
 }
 
 /* Footer */
@@ -295,23 +287,33 @@ footer #social-media-footer ul li:hover a .fa-github {
 /* Single Blogpost */
 
 #post-container{
-  
+  display: flex;
 }
 
+#blogpost{
+  display: flex;
+  flex-direction:column;
+  width:70%;
+  border-left:1px solid #999;
+}
 
-
-
-.cards{
+#blogpost .cards{
   width:100%;
 }
 
-.cards-image:hover{
+#blogpost .cards-image:hover{
   box-shadow: none;
 }
 
 /* Sidebar */
 
-
+#sidebar{
+  background:#333;
+  flex:1;
+  padding: 8px 16px;
+  color:white;
+  box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
+}
 
 
 /* Media Queries */
@@ -332,7 +334,7 @@ footer #social-media-footer ul li:hover a .fa-github {
     display: none;
   }
 
-  .blogpost{
+  #blogpost{
     width:100%;
     border-left:0;
   }
@@ -348,7 +350,7 @@ footer #social-media-footer ul li:hover a .fa-github {
   }
 
   section {
-    display:none;
+    flex-direction: column;
   }
 
   .cards,
@@ -421,5 +423,4 @@ footer #social-media-footer ul li:hover a .fa-github {
   main {
     width: 85%;
   }
-
-
+}
