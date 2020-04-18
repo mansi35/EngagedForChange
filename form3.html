@@ -205,9 +205,9 @@
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.17180" type="text/javascript"></script>
 <script src="https://js.jotform.com/vendor/postMessage.js?3.3.17180" type="text/javascript"></script>
-<script src="https://js.jotform.com/WidgetsServer.js?v=1587216404720" type="text/javascript"></script>
+<script src="https://js.jotform.com/WidgetsServer.js?v=1587219141667" type="text/javascript"></script>
 <script type="text/javascript">
-   JotForm.setConditions([{"action":[{"id":"action_1587215320848","visibility":"Hide","isError":false,"field":"28"}],"id":"1587215344635","index":"0","link":"Any","priority":"0","terms":[{"id":"term_1587215320848","field":"32","operator":"equals","value":"A Message","isError":false}],"type":"field"},{"action":[{"id":"action_1587215143027","visibility":"Hide","isError":false,"field":"30"}],"id":"1587215301552","index":"1","link":"Any","priority":"1","terms":[{"id":"term_1587215143027","field":"31","operator":"equals","value":"A Random Person","isError":false}],"type":"field"}]);
+   JotForm.setConditions([{"action":[{"id":"action_1587218534562","visibility":"Hide","isError":false,"field":"28"}],"id":"1587218554190","index":"0","link":"Any","priority":"0","terms":[{"id":"term_1587218534562","field":"32","operator":"equals","value":"A Message","isError":false}],"type":"field"},{"action":[{"id":"action_1587218464593","visibility":"Hide","isError":false,"field":"30"},{"id":"action_0_1587218426627","visibility":"Hide","isError":false,"field":"28"}],"id":"1587215344635","index":"1","link":"All","priority":"1","terms":[{"id":"term_1587218441621","field":"31","operator":"equals","value":"A Random Person","isError":false},{"id":"term_0_1587218426627","field":"32","operator":"equals","value":"A Message","isError":false}],"type":"field"},{"action":[{"id":"action_1587215143027","visibility":"Hide","isError":false,"field":"30"}],"id":"1587215301552","index":"2","link":"Any","priority":"2","terms":[{"id":"term_1587215143027","field":"31","operator":"equals","value":"A Random Person","isError":false}],"type":"field"}]);
   JotForm.init(function(){
 if (window.JotForm && JotForm.accessible) $('input_17').setAttribute('tabindex',0);
   JotForm.newDefaultTheme = false;
@@ -260,14 +260,19 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_widget" id="id_31">
-        <label class="form-label form-label-left form-label-auto" id="label_31" for="input_31"> Send A Feeling To </label>
-        <div id="cid_31" class="form-input">
+      <li class="form-line jf-required" data-type="control_widget" id="id_31">
+        <label class="form-label form-label-left form-label-auto" id="label_31" for="input_31">
+          Send A Feeling To
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_31" class="form-input jf-required">
           <div data-widget-name="Checkbox in Dropdown" style="width:100%;text-align:Left;overflow-x:auto" data-component="widget-field">
             <iframe title="Checkbox in Dropdown" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_31" src="" style="border:none;width:300px;height:55px" data-width="300" data-height="55">
             </iframe>
             <div class="widget-inputs-wrapper">
-              <input type="hidden" id="input_31" class="form-hidden form-widget  " name="q31_sendA" value="" />
+              <input type="hidden" id="input_31" class="form-hidden form-widget widget-required " name="q31_sendA" value="" />
               <input type="hidden" id="widget_settings_31" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22options%22%2C%22value%22%3A%22A%20Random%20Person%5CnQuarantined%20Friend%2FFamily%22%7D%2C%7B%22name%22%3A%22defaultText%22%2C%22value%22%3A%22Choose%20One%22%7D%2C%7B%22name%22%3A%22maxSelection%22%2C%22value%22%3A%221%22%7D%2C%7B%22name%22%3A%22errorMsg%22%2C%22value%22%3A%22You%20can%20select%20only%20%7Bmax%7D%20options%20at%20a%20time.%22%7D%5D" data-version="2" />
             </div>
             <script type="text/javascript">
@@ -293,14 +298,19 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_widget" id="id_32">
-        <label class="form-label form-label-left form-label-auto" id="label_32" for="input_32"> So, What's Your Feeling? </label>
-        <div id="cid_32" class="form-input">
+      <li class="form-line jf-required" data-type="control_widget" id="id_32">
+        <label class="form-label form-label-left form-label-auto" id="label_32" for="input_32">
+          So, What's Your Feeling?
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_32" class="form-input jf-required">
           <div data-widget-name="Checkbox in Dropdown" style="width:100%;text-align:Left;overflow-x:auto" data-component="widget-field">
             <iframe title="Checkbox in Dropdown" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_32" src="" style="border:none;width:300px;height:55px" data-width="300" data-height="55">
             </iframe>
             <div class="widget-inputs-wrapper">
-              <input type="hidden" id="input_32" class="form-hidden form-widget  " name="q32_soWhats" value="" />
+              <input type="hidden" id="input_32" class="form-hidden form-widget widget-required " name="q32_soWhats" value="" />
               <input type="hidden" id="widget_settings_32" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22options%22%2C%22value%22%3A%22A%20Message%5CnA%20Gift%5CnA%20Message%20And%20A%20Gift%22%7D%2C%7B%22name%22%3A%22defaultText%22%2C%22value%22%3A%22Choose%20One%22%7D%2C%7B%22name%22%3A%22maxSelection%22%2C%22value%22%3A%221%22%7D%2C%7B%22name%22%3A%22errorMsg%22%2C%22value%22%3A%22You%20can%20select%20only%20%7Bmax%7D%20options%20at%20a%20time.%22%7D%5D" data-version="2" />
             </div>
             <script type="text/javascript">
@@ -360,14 +370,19 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
           </div>
         </div>
       </li>
-      <li class="form-line form-field-hidden" style="display:none;" data-type="control_address" id="id_28">
-        <label class="form-label form-label-left form-label-auto" id="label_28" for="input_28_addr_line1"> Your Address </label>
-        <div id="cid_28" class="form-input">
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_address" id="id_28">
+        <label class="form-label form-label-left form-label-auto" id="label_28" for="input_28_addr_line1">
+          Your Address
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_28" class="form-input jf-required">
           <div summary="" class="form-address-table jsTest-addressField">
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span colSpan="2" class="form-address-line form-address-street-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_28_addr_line1" name="q28_yourAddress[addr_line1]" class="form-textbox form-address-line" value="" data-component="address_line_1" aria-labelledby="label_28 sublabel_28_addr_line1" required="" />
+                  <input type="text" id="input_28_addr_line1" name="q28_yourAddress[addr_line1]" class="form-textbox validate[required] form-address-line" value="" data-component="address_line_1" aria-labelledby="label_28 sublabel_28_addr_line1" required="" />
                   <label class="form-sub-label" for="input_28_addr_line1" id="sublabel_28_addr_line1" style="min-height:13px" aria-hidden="false"> Street Address </label>
                 </span>
               </span>
@@ -383,13 +398,13 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span class="form-address-line form-address-city-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_28_city" name="q28_yourAddress[city]" class="form-textbox form-address-city" size="21" value="" data-component="city" aria-labelledby="label_28 sublabel_28_city" required="" />
+                  <input type="text" id="input_28_city" name="q28_yourAddress[city]" class="form-textbox validate[required] form-address-city" size="21" value="" data-component="city" aria-labelledby="label_28 sublabel_28_city" required="" />
                   <label class="form-sub-label" for="input_28_city" id="sublabel_28_city" style="min-height:13px" aria-hidden="false"> City </label>
                 </span>
               </span>
               <span class="form-address-line form-address-state-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_28_state" name="q28_yourAddress[state]" class="form-textbox form-address-state" size="22" value="" data-component="state" aria-labelledby="label_28 sublabel_28_state" required="" />
+                  <input type="text" id="input_28_state" name="q28_yourAddress[state]" class="form-textbox validate[required] form-address-state" size="22" value="" data-component="state" aria-labelledby="label_28 sublabel_28_state" required="" />
                   <label class="form-sub-label" for="input_28_state" id="sublabel_28_state" style="min-height:13px" aria-hidden="false"> State / Province </label>
                 </span>
               </span>
@@ -397,13 +412,13 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span class="form-address-line form-address-zip-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_28_postal" name="q28_yourAddress[postal]" class="form-textbox form-address-postal" size="10" value="" data-component="zip" aria-labelledby="label_28 sublabel_28_postal" required="" />
+                  <input type="text" id="input_28_postal" name="q28_yourAddress[postal]" class="form-textbox validate[required] form-address-postal" size="10" value="" data-component="zip" aria-labelledby="label_28 sublabel_28_postal" required="" />
                   <label class="form-sub-label" for="input_28_postal" id="sublabel_28_postal" style="min-height:13px" aria-hidden="false"> Postal / Zip Code </label>
                 </span>
               </span>
               <span class="form-address-line form-address-country-line jsTest-address-lineField" style="display:none">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <select class="form-dropdown form-address-country noTranslate" name="q28_yourAddress[country]" id="input_28_country" data-component="country" required="" aria-labelledby="label_28 sublabel_28_country">
+                  <select class="form-dropdown validate[required] form-address-country noTranslate" name="q28_yourAddress[country]" id="input_28_country" data-component="country" required="" aria-labelledby="label_28 sublabel_28_country">
                     <option value=""> Please Select </option>
                     <option value="United States"> United States </option>
                     <option value="Afghanistan"> Afghanistan </option>
@@ -660,14 +675,19 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
           </div>
         </div>
       </li>
-      <li class="form-line form-field-hidden" style="display:none;" data-type="control_address" id="id_30">
-        <label class="form-label form-label-left form-label-auto" id="label_30" for="input_30_addr_line1"> Address of Receiver of Feeling </label>
-        <div id="cid_30" class="form-input">
+      <li class="form-line jf-required form-field-hidden" style="display:none;" data-type="control_address" id="id_30">
+        <label class="form-label form-label-left form-label-auto" id="label_30" for="input_30_addr_line1">
+          Address of Receiver of Feeling
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_30" class="form-input jf-required">
           <div summary="" class="form-address-table jsTest-addressField">
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span colSpan="2" class="form-address-line form-address-street-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_30_addr_line1" name="q30_addressOf[addr_line1]" class="form-textbox form-address-line" value="" data-component="address_line_1" aria-labelledby="label_30 sublabel_30_addr_line1" required="" />
+                  <input type="text" id="input_30_addr_line1" name="q30_addressOf[addr_line1]" class="form-textbox validate[required] form-address-line" value="" data-component="address_line_1" aria-labelledby="label_30 sublabel_30_addr_line1" required="" />
                   <label class="form-sub-label" for="input_30_addr_line1" id="sublabel_30_addr_line1" style="min-height:13px" aria-hidden="false"> Street Address </label>
                 </span>
               </span>
@@ -683,13 +703,13 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span class="form-address-line form-address-city-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_30_city" name="q30_addressOf[city]" class="form-textbox form-address-city" size="21" value="" data-component="city" aria-labelledby="label_30 sublabel_30_city" required="" />
+                  <input type="text" id="input_30_city" name="q30_addressOf[city]" class="form-textbox validate[required] form-address-city" size="21" value="" data-component="city" aria-labelledby="label_30 sublabel_30_city" required="" />
                   <label class="form-sub-label" for="input_30_city" id="sublabel_30_city" style="min-height:13px" aria-hidden="false"> City </label>
                 </span>
               </span>
               <span class="form-address-line form-address-state-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_30_state" name="q30_addressOf[state]" class="form-textbox form-address-state" size="22" value="" data-component="state" aria-labelledby="label_30 sublabel_30_state" required="" />
+                  <input type="text" id="input_30_state" name="q30_addressOf[state]" class="form-textbox validate[required] form-address-state" size="22" value="" data-component="state" aria-labelledby="label_30 sublabel_30_state" required="" />
                   <label class="form-sub-label" for="input_30_state" id="sublabel_30_state" style="min-height:13px" aria-hidden="false"> State / Province </label>
                 </span>
               </span>
@@ -697,13 +717,13 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span class="form-address-line form-address-zip-line jsTest-address-lineField">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <input type="text" id="input_30_postal" name="q30_addressOf[postal]" class="form-textbox form-address-postal" size="10" value="" data-component="zip" aria-labelledby="label_30 sublabel_30_postal" required="" />
+                  <input type="text" id="input_30_postal" name="q30_addressOf[postal]" class="form-textbox validate[required] form-address-postal" size="10" value="" data-component="zip" aria-labelledby="label_30 sublabel_30_postal" required="" />
                   <label class="form-sub-label" for="input_30_postal" id="sublabel_30_postal" style="min-height:13px" aria-hidden="false"> Postal / Zip Code </label>
                 </span>
               </span>
               <span class="form-address-line form-address-country-line jsTest-address-lineField" style="display:none">
                 <span class="form-sub-label-container " style="vertical-align:top">
-                  <select class="form-dropdown form-address-country noTranslate" name="q30_addressOf[country]" id="input_30_country" data-component="country" required="" aria-labelledby="label_30 sublabel_30_country">
+                  <select class="form-dropdown validate[required] form-address-country noTranslate" name="q30_addressOf[country]" id="input_30_country" data-component="country" required="" aria-labelledby="label_30 sublabel_30_country">
                     <option value=""> Please Select </option>
                     <option value="United States"> United States </option>
                     <option value="Afghanistan"> Afghanistan </option>
@@ -998,7 +1018,6 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null
   </script>
   <div class="formFooter-heightMask">
   </div>
-  
 </form></body>
 </html>
 <script type="text/javascript">window.GOOGLE_SIGNON = "172124630376-qk1qmdfmur2ojaf39e070iqhpt2foaip.apps.googleusercontent.com"</script>
