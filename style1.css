@@ -314,6 +314,12 @@ footer #social-media-footer ul li:hover a .fa-github {
   color:white;
   box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
 }
+#sidebar h4{
+    color:white;
+}
+#sidebar a{
+    color:yellow;
+}
 
 
 /* Media Queries */
