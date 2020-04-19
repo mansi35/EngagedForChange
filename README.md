@@ -1,11 +1,11 @@
 # EngagedForChange.github.io
 
-A Social Volunteering Website
+### *Nobody Can Do Everything, But Everyone Can Do Something..*
 
 Engaged For Change, as the name suggests, is an online platform where people of all different communities can engage, interact and inspire each other in order to tackle the existential crisis the world is witnessing right now-COVID 19. The idea and inspiration behind this project were the different challenges Covid 19 has brought along since its outbreak. There is a sense of insecurity and uncertainity surrounding us. There is a lot of pressure on our government and authorities to combat the current situation and implement schemes to help flatten the curve. The people who are financially stable can somehow protect themselves and look after their own needs to some extent in the lockdown situation. But the people who are daily wage workers cannot afford to support their livelihood. We wanted to create a platform where people who want to do their part in volunteering and donations can directly do so as we provide them with reliable means to do so. Apart from this, it is a platform for people to share their experiences, views and thoughts. Not only Covid 19 is a big threat to mankind, it also affected our mental health adversely. For the front-line workers and the quarantined people the situation is worse as living and working in such tense conditions takes a toll on our mental health quite negatively. We have a section where people can send messages and gifts to such people expressing their solidarity with the affected people. It is unsafe and risky to even go out inorder to buy necessary stuff like groceries, medicines etc. We aim to provide people with these items at their door-steps without having to go out and putting their safety at risk. Drones can deliver items to even remote areas efficiently as per the requirements of the customers. These can be done even by hospitals in transporting the testing kits and samples safely, minimizing the delay in the diagnosis of the virus. Similarly, drones can be used to deliver necessary items to the people in isolation.
 
 
-__OUR MISSIONS__
+## *__OUR SERVICES__*
 
 *__1. DRONE DELIVERY__*
 As the prevailing Coronavirus is a highly contagious and communicable disease, going out to buy even basic necessities like groceries and medicines exposes oneto the very high risks of being infected by the virus. An equipment like a delivery drone which is an autonomous vehicle, often an unmanned aerial vehicle (UAV), can be used to transport packages, food or other necessary goods to the people at their doorsteps. 
