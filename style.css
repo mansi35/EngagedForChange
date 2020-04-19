@@ -50,7 +50,7 @@
 .carousel-caption{
 	top: 25%;
 	transform: translateY(-50%);
-	transform: translateX(-50%)!important;
+	transform: translateX(-45%)!important;
 	bottom: initial!important;
 }
 .carousel-caption h5{
