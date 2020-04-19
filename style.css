@@ -50,12 +50,12 @@
 .carousel-caption{
 	top: 25%;
 	transform: translateY(-50%);
-	transform: translateX(-50%);
+	transform: translateX(-50%)!important;
 	bottom: initial!important;
 }
 .carousel-caption h5{
 	color: #fff;
-	font-size:58px;
+	font-size:50px;
 }
 
 /* about us*/
